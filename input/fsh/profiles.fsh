@@ -29,3 +29,6 @@ Description: "Immunization Patient recieving immunization at the health facility
 * identifier[NRC].system = "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NRC"
 
 * extension contains BornInZambia named BornInZambia 1..1
+
+
+--
