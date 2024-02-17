@@ -1,0 +1,11 @@
+fhirigteamone
+=========================================
+
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.fhir-ig-teamone.json: line 1, col 1170, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.fhir-ig-teamone.json: line 1, col 8166, Warning - Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide) (INVARIANT)
+/github/workspace/fsh-generated/resources/StructureDefinition-born-in-zambia.json: line 1, col 11571, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-immunization-patient.json: line 1, col 29995, Info - Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0 (BUSINESSRULE)
+
+err = 0, warn = 2, info = 3
+IG Publisher Version: 1.5.16

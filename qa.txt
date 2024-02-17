@@ -1,0 +1,22 @@
+fhirigteamone : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 3
+IG Publisher Version: 1.5.16
+Generated Sat Feb 17 09:32:56 UTC 2024. FHIR version 5.0.0 for openhie.fhir.fhir-ig-teamone#1.0.0 (canonical = http://openhie.org/fhir/fhir-ig-teamone)
+ Build Errors : 0 / 1 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.fhir-ig-teamone : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Patient-ImmunizationPatientExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-born-in-zambia : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-immunization-patient : 0 / 0 / 2
+</table>
+== n/a ==
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-openhie.fhir.fhir-ig-teamone.json ==
+INFORMATION: ImplementationGuide/openhie.fhir.fhir-ig-teamone: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ImplementationGuide/openhie.fhir.fhir-ig-teamone: ImplementationGuide: Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+== fsh-generated/resources/Patient-ImmunizationPatientExample.json ==
+== fsh-generated/resources/StructureDefinition-born-in-zambia.json ==
+INFORMATION: StructureDefinition/born-in-zambia: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-immunization-patient.json ==
+INFORMATION: StructureDefinition/immunization-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

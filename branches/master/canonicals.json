@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "openhie.fhir.fhir-ig-teamone",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/openhie.fhir.fhir-ig-teamone",
+    "version" : "1.0.0",
+    "name" : "fhirigteamone"
+  },
+  {
+    "id" : "born-in-zambia",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/born-in-zambia",
+    "version" : "1.0.0",
+    "name" : "BornInZambia"
+  },
+  {
+    "id" : "immunization-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/immunization-patient",
+    "version" : "1.0.0",
+    "name" : "ImmunizationPatient"
+  }
+]

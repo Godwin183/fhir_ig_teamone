@@ -1,0 +1,28 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ImmunizationPatientExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/immunization-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Maiden Snow (MAIDEN)</b> (no stated gender), DoB Unknown ( <code>http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NUPIN</code>/5040-100-29000-1)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NRC</code>/799691/11/1</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"This extension is used to indicate if someone was born in Zambia (Y/N)\"><a href=\"StructureDefinition-born-in-zambia.html\">Born In Zambia:</a></td><td colspan=\"3\"><ul><li>true</li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/born-in-zambia",
+    "valueBoolean" : true
+  }],
+  "identifier" : [{
+    "system" : "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NUPIN",
+    "value" : "5040-100-29000-1"
+  },
+  {
+    "system" : "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NRC",
+    "value" : "799691/11/1"
+  }],
+  "name" : [{
+    "use" : "maiden",
+    "family" : "Snow",
+    "given" : ["Maiden"]
+  }]
+}

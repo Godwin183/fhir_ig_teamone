@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/fhir-ig-teamone/Patient/ImmunizationPatientExample> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ImmunizationPatientExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/immunization-patient"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/immunization-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Maiden Snow (MAIDEN)</b> (no stated gender), DoB Unknown ( <code>http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NUPIN</code>/5040-100-29000-1)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NRC</code>/799691/11/1</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"This extension is used to indicate if someone was born in Zambia (Y/N)\"><a href=\"StructureDefinition-born-in-zambia.html\">Born In Zambia:</a></td><td colspan=\"3\"><ul><li>true</li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/fhir-ig-teamone/StructureDefinition/born-in-zambia"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "true"^^xsd:boolean ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NUPIN"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "5040-100-29000-1" ]
+  ] [
+     fhir:system [ fhir:v "http://openhie.org/fhir/fhir-ig-teamone/ImplementationGuide/identifier/patient-NRC"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "799691/11/1" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "maiden" ] ;
+     fhir:family [ fhir:v "Snow" ] ;
+     fhir:given ( [ fhir:v "Maiden" ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
